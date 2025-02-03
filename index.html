@@ -9,37 +9,35 @@
 </head>
 <body>
     <div class="calculatrice">
-        <div class="écran">
-            <div class="chiffres">1</div>
-        </div>
+        <div id="écran">0</div>
         <div class="boutons">
             <div class="colonne1">
-                <div class="boutonUnique">CE</div>
-                <div>7</div>
-                <div>4</div>
-                <div>1</div>
-                <div class="boutonUnique">±</div>
+                <div data-action="clear" class="boutonUnique">CE</div>
+                <div class="nombre" data-value="7">7</div>
+                <div class="nombre" data-value="4">4</div>
+                <div class="nombre" data-value="1">1</div>
+                <div data-action="plusMoins" class="boutonUnique">±</div>
             </div>
             <div class="colonne2">
-                <div class="boutonUnique">C</div>
-                <div>8</div>
-                <div>5</div>
-                <div>2</div>
-                <div>0</div>
+                <div data-action="clear" class="boutonUnique">C</div>
+                <div class="nombre" data-value="8">8</div>
+                <div class="nombre" data-value="5">5</div>
+                <div class="nombre" data-value="2">2</div>
+                <div class="nombre" data-value="0">0</div>
             </div>
             <div class="colonne3">
-                <div class="boutonUnique">E</div>
-                <div>9</div>
-                <div>6</div>
-                <div>3</div>
-                <div class="boutonUnique">.</div>
+                <div data-action="delete" class="boutonUnique">⌫</div>
+                <div class="nombre" data-value="9">9</div>
+                <div class="nombre" data-value="6">6</div>
+                <div class="nombre" data-value="3">3</div>
+                <div data-action="point" class="boutonUnique">.</div>
             </div>
             <div class="colonne4">
-                <div>%</div>
-                <div>x</div>
-                <div>-</div>
-                <div>+</div>
-                <div>=</div>
+                <div data-action="op">/</div>
+                <div data-action="op">x</div>
+                <div data-action="op">-</div>
+                <div data-action="op">+</div>
+                <div data-action="calculer">=</div>
             </div>
             
         </div>

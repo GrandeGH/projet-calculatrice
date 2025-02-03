@@ -28,7 +28,7 @@ body {
 
 /* //////////////// écran ////////////////// */
 
-.écran {
+#écran {
     width: 295px;
     height: 80px;
     margin-block: 15px;
@@ -58,7 +58,6 @@ body {
 }
 
 .colonne1 {
-
     div {
         width: 66px;
         height: 66px;
@@ -73,7 +72,6 @@ body {
 }
 
 .colonne2 {
-
     div {
         width: 66px;
         height: 66px;
@@ -89,7 +87,6 @@ body {
 }
 
 .colonne3 {
-
     div {
         width: 66px;
         height: 66px;
@@ -105,7 +102,6 @@ body {
 }
 
 .colonne4 {
-
     div {
         width: 66px;
         height: 66px;
@@ -121,4 +117,19 @@ body {
 
 .boutonUnique {
     background-color: rgb(147, 147, 192) !important;
+}
+
+
+/* //////////////////////////// hover ////////////////////////////////  */
+
+.nombre:hover {
+    background-color: rgb(72, 61, 174);
+}
+
+.boutonUnique:hover {
+    background-color: rgb(94, 94, 123) !important;
+}
+
+.colonne4>div:hover {
+    background-color: rgb(220, 160, 29);
 }
