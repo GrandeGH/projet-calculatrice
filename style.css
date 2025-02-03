@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 174, 248);
+}
+
+
+/* //////////////// taille calculatrice ////////////////// */
+
+.calculatrice {
+    width: 330px;
+    height: 500px;
+    background-color: rgb(31, 46, 143);
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////// écran ////////////////// */
+
+.écran {
+    width: 295px;
+    height: 80px;
+    margin-block: 15px;
+    border-radius: 15px;
+    border: 3px rgb(60, 105, 150) solid;
+    background-color: rgb(169, 170, 172);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .chiffres{
+        margin-left: 25px;
+        font-size: 30px;
+    }
+}
+
+.boutons {
+    /* background-color: rgb(0, 0, 255); */
+    width: 320px;
+    height: 370px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.colonne1 {
+
+    div {
+        width: 66px;
+        height: 66px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        margin-left: 12px;
+        background-color: rgb(99, 84, 236);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.colonne2 {
+
+    div {
+        width: 66px;
+        height: 66px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background-color: rgb(99, 84, 236);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.colonne3 {
+
+    div {
+        width: 66px;
+        height: 66px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background-color: rgb(99, 84, 236);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.colonne4 {
+
+    div {
+        width: 66px;
+        height: 66px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background-color: rgb(220, 207, 29);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.boutonUnique {
+    background-color: rgb(147, 147, 192) !important;
+}
